@@ -5,10 +5,10 @@ int main()
 {
     double a, b, x;
     
-    printf("Vvedite a:");
+    printf("Vvedite a: ");
     scanf("%f", &a);
     
-    printf("Vvedite b:");
+    printf("Vvedite b: ");
     scanf("%f", &b);
     
     x = - b / a ;
