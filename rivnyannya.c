@@ -4,6 +4,7 @@
 int main()
 {
     float x,y;
+    
     printf("x=");
     scanf("%f", &x);
     
@@ -11,4 +12,4 @@ int main()
     printf("%3.2f",y);
     
     return 0;
-};
+}
