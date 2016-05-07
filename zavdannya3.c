@@ -3,19 +3,14 @@
 int main()
 
 {
-    int a;
+    int number;
     
-    printf("a=");
-    scanf("%e" ,&a);
-    printf ("a=%e", a);
-		
-    printf("\na=");
-    scanf("%f" ,&a);
-    printf ("a=%f", a);
-	
-    printf("\na=");
-    scanf("%x" ,&a);
-    printf ("a=%x", a);
+    printf("Enter the number: ");
+    scanf("%d" ,&number);
+    
+    printf ("\n\tExponential style: %e", number);
+    printf ("\n\tEight style: %o", number);
+    printf ("\n\tSixteen style: %x", number);
 	
     return 0;
 }
