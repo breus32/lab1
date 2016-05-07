@@ -5,13 +5,13 @@ int main()
 {
     int x, y, x1, y1;
     
-    printf("x=");
+    printf("x= ");
     scanf("%d" ,&x);
     
     y = x * x;
     printf ("y=%d", y);
 	
-    printf("\nx1=");
+    printf("\nx1= ");
     scanf("%d" ,&x1);
     
     y1 = x1 * x1;
