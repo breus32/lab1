@@ -1,21 +1,15 @@
 #include <stdio.h>
 
-int main()
-
-{
-    int x, y, x1, y1;
+int main(){
     
-    printf("x= ");
-    scanf("%d" ,&x);
+    float x, y;
+    
+    printf("Enter x: ");
+    scanf("%f" ,&x);
     
     y = x * x;
-    printf ("y=%d", y);
-	
-    printf("\nx1= ");
-    scanf("%d" ,&x1);
     
-    y1 = x1 * x1;
-    printf ("y1=%d", y1);
+    printf ("\n\tx = %.3f;\n\ty = %.3f;", x, y);
 
     return 0;
 }
